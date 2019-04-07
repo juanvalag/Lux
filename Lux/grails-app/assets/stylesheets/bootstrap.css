@@ -13,6 +13,7 @@ body {
   margin: 0;
 }
 article,
+nav,
 aside,
 details,
 figcaption,
@@ -22,7 +23,6 @@ header,
 hgroup,
 main,
 menu,
-nav,
 section,
 summary {
   display: block;
