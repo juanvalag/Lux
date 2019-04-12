@@ -13,7 +13,6 @@ body {
   margin: 0;
 }
 article,
-nav,
 aside,
 details,
 figcaption,
@@ -26,6 +25,9 @@ menu,
 section,
 summary {
   display: block;
+}
+nav{
+    display: inline;
 }
 audio,
 canvas,

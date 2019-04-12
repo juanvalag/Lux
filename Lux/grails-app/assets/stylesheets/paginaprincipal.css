@@ -3,7 +3,7 @@
     position: sticky;
     top: 0;
 }
-ul{
+.navigatorbar ul{
     
     height:50px;
     list-style-type: none;
@@ -13,11 +13,11 @@ ul{
     background-color: #FF5252;
 }
 
-li{
+.navigatorbar li{
     float: left;
 }
 
-li a{
+.navigatorbar li a{
     height: 100%;
     color: whitesmoke;
     text-align: center;
@@ -25,7 +25,15 @@ li a{
     text-decoration: none;
 }
 
-li a:hover{
+.navigatorbar li a:hover{
     background-color: white;
     color: black;
+}
+
+#contactenos {
+	float:left;
+}
+
+#copyright{
+	float:right;
 }
